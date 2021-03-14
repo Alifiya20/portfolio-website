@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+p{
+    font-size:1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-top:2rem;
+}
+.btn{
+    background-color: turquoise;
+    font-size: 1.1rem;
+    font-family:'Roboto Mono', monospace;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin-top:2rem;
+    padding:0.5rem 1rem
+}
+.btn:hover{
+    background-color:black;
+    color: whitesmoke;
+}
+img{
+    height: 15rem;
+    width:15rem;
+    border-radius:50%;
+    object-fit: cover;
+    border: 8px solid turquoise;
+}
+.container{
+    padding: 2rem 5rem;
+}
+
+.main{
+    background-color: black;
+    color: cadetblue;
+    
+
+}
+
+
+.div_main{
+    margin-top: 00.5rem;
+    margin-bottom:5rem;
+}
+.div_main2{
+    margin-top: 00.5rem;
+    margin-right: 20rem;
+
+}
+
+.div_main{
+    float: left;
+    clear: left;
+}
+.div_main2{
+    float: right;
+    clear:right;
+
+}
+ 
+.subh2{
+    font-size: 2rem;
+    margin: 1;
+    padding-top: 1rem;
+    color: whitesmoke;
+}
+
+.selective{
+    margin-top: 0.5rem;
+}
+
+.icons{
+    margin-top: 1rem;
+    
+}
+.fab{
+    color: lightskyblue;
+    padding-right: 30px;
+    opacity: 0.5;
+}
+
+.fab:hover{
+    opacity: 2;
+}
+ 
+/* This is the css for our form */
+.heading{
+    font-size: 75px;
+    color:turquoise;
+}
+.form-text{
+    font-family:"fantasy";
+    max-width :420px;
+    line-height: 1.5rem;
+
+}
+
+
+.form-body{
+    margin-top: 2rem;
+}
+.input-field{
+    width:35%;
+    margin: 2rem 0; /*shorthand property of margin 1 top bottom 0 left right */
+    display: block;
+    height: 1rem;
+    background-color:whitesmoke;
+    border: 2px solid turquoise;
+    border-radius:5px;
+    padding: 1rem;
+    
+}
+.textresize{
+    height: 4rem;
+}
+.input-field::placeholder{
+  color: rgba(255, 255, 255,0.6);
+ line-height: 1.5rem;
+}
+.input-field:focus,.input-field:hover{
+    color: black;
+    outline: cadetblue;
+    background-color:rgb(183, 241, 243);
+    font-weight: bold;
+}
+.input-field:focus::placeholder,
+.input-field:hover::placeholder{
+    color:black;
+}
